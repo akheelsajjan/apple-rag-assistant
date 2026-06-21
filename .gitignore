@@ -1,0 +1,31 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# --- Environment secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Node.js / Next.js ---
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/
+*.swp
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- uv ---
+uv.lock
