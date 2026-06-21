@@ -2,6 +2,8 @@
 
 A full-stack, domain-aware RAG application that answers questions about **Apple Inc.** (the company) and **apple** (the fruit) — two domains deliberately chosen because they share overlapping vocabulary ("growth," "yield," "market," "production"), making naive retrieval unreliable and creating a real testbed for advanced RAG techniques.
 
+Video : https://www.linkedin.com/feed/update/urn:li:activity:7474420851224887296/
+
 ## What it does
 
 - **Query routing** — an LLM classifies each question as `company`, `fruit`, `ambiguous`, or `irrelevant` before retrieval even happens.
